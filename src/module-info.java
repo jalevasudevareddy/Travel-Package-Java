@@ -1,0 +1,3 @@
+module TravelPackage {
+	requires junit;
+}
