@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2023-12-29T17:59:47.098Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="hzBcoZkXwcN9sngbJLpR" version="22.1.16" type="device">
+  <diagram name="Page-1" id="oFnCurDIM3f7mf9ffZS3">
+    <mxGraphModel dx="794" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H6Gax_7dUkw2DZdcnqGQ-2" value="&amp;nbsp;name: String &lt;br&gt;&amp;nbsp;passengerCapacity: int  &lt;br&gt;itinerary: List&amp;lt;Destination&amp;gt; &lt;br&gt;passengers: List&amp;lt;Passenger&amp;gt;&lt;br&gt;=====================&lt;br&gt;addPassenger(passenger: Passenger)&lt;br&gt;printItinerary()  &lt;br&gt;printPassengerList() " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Gax_7dUkw2DZdcnqGQ-3" value="TravelPackage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Gax_7dUkw2DZdcnqGQ-4" value="name: String&lt;br&gt;activities: List&amp;lt;Activity&amp;gt; " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Gax_7dUkw2DZdcnqGQ-5" value="Destination" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Gax_7dUkw2DZdcnqGQ-6" value="name: String  &lt;br&gt;description: String&lt;br&gt;cost: double&lt;br&gt;capacity: int &lt;br&gt;destination: Destination &lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Gax_7dUkw2DZdcnqGQ-7" value="Activity " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Gax_7dUkw2DZdcnqGQ-8" value="name: String&lt;br&gt;passengerNumber: int&lt;br&gt;balance: double (or use BigDecimal)&lt;br&gt;type: PassengerType &lt;br&gt;activities: List&amp;lt;Activity&amp;gt; " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Gax_7dUkw2DZdcnqGQ-9" value="Passenger" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="410" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Gax_7dUkw2DZdcnqGQ-10" value=" PassengerType " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="410" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Gax_7dUkw2DZdcnqGQ-11" value="STANDARD&lt;br&gt;GOLD&lt;br&gt;PREMIUM " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="200" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
